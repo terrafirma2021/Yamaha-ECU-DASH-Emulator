@@ -1,8 +1,8 @@
-# Arduino DASH and ECU Communication Simulator
+# Yamaha Arduino DASH and ECU Simulator
 
 ## Overview
 
-This Arduino sketch simulates communication between a Dashboard (DASH) and an Electronic Control Unit (ECU), typical in automotive contexts. It is designed to run on Arduino Mega or any other Arduino model that supports multiple hardware serial ports. The code illustrates a basic protocol of sending and receiving specific byte sequences between the DASH and ECU, implementing timeouts and error handling.
+This Arduino sketch simulates the K-line communication between the dash and the ECU. It is designed to run on Arduino Mega or any other Arduino model that supports multiple hardware serial ports. The code illustrates a basic protocol of sending and receiving specific byte sequences between the DASH and ECU, implementing timeouts and error handling, using both ER-1 and ER-2 which would be displayed on the dash, when both loss of ECU reponse, or no init reponse form the ECU. This is needed when testing code without having to connect to the ECU, or dash
 
 ## MCU Compatibility
 
@@ -14,7 +14,7 @@ This Arduino sketch simulates communication between a Dashboard (DASH) and an El
 
 ### Initial Delay
 
-The simulation starts with an initial delay, allowing for any necessary setup before the communication begins.
+The simulation starts with an initial delay, following the YDT standard software protocol specs
 
 ### DASH Behavior
 
