@@ -1,4 +1,4 @@
-# Yamaha Arduino DASH and ECU Simulator
+# Yamaha DASH and ECU Simulator
 
 ## Overview
 
