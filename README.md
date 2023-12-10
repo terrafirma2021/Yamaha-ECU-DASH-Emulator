@@ -2,10 +2,9 @@
 
 [![Video Demo](https://img.youtube.com/vi/b36fGeeoa00/0.jpg)](https://www.youtube.com/watch?v=b36fGeeoa00)
 
-
 ## Overview
 
-This Arduino sketch serves as a versatile Yamaha DASH and ECU Simulator, primarily designed to facilitate the setup and rapid testing of UART bridging functionality on other devices. It enables the interception of K-line data between the DASH and the ECU. This tool is intended for assistance to enable another device to configure a bridge, witht he end result allowing real-time editing and manipulation of data in both directions: data presented to the DASH and data sent to the ECU.
+This Arduino sketch serves as a versatile Yamaha DASH and ECU Simulator, primarily designed to facilitate the setup and rapid testing of UART bridging functionality on other devices. It enables the interception of K-line data between the DASH and the ECU. This tool is intended for assistance to enable another device to configure a bridge, with the end result allowing real-time editing and manipulation of data in both directions: data presented to the DASH and data sent to the ECU.
 
 ## MCU Compatibility
 
